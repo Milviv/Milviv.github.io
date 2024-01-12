@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+  <title>Contacto</title>
+
+  <header class="navbar navbar-expand-lg navbar-light bg-dark fixed-top">
+    <div class="container">
+        <a href="/" class="navbar-brand d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none">
+            <img src="img/logo_taller.png" alt="Logo" style="width: 100px; height: auto;">
+        </a>
+
+               <!-- Botón del menú hamburguesa con estilo en línea -->
+               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" style="background-color: white;">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+                <ul class="navbar-nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+                    <li><a href="Index.html" class="nav-link px-2 text-white">Nuestro taller</a></li>
+                    <li><a href="Index.html#servicios" class="nav-link px-2 text-white">Servicios</a></li>
+                    <li><a href="contact.html" class="nav-link px-2 text-white">Contacto</a></li>
+                </ul>
+            </ul>
+            
+            <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3" role="search">
+                <input type="search" class="form-control form-control-dark text-white" placeholder="Buscar..." aria-label="Search">
+            </form>
+        </div>
+    </div>
+</header>
+
+
+<br><br><br><br>
+
+  <section  id="contact" class="mt-4">
+    <div class="container">
+        <div class="row">
+            <!-- Formulario ocupa 6 col en medianos y grandes -->
+            <div class="col-md-6">
+                <div class="card p-4 bg-dark">
+                    <!-- estilo de fondo en style -->
+                    <h2  class="text-center mb-4 text-white">Agenda con Nosotros</h2>
+                    <form action="#" method="post" id="contactForm">
+                      <div class="mb-3">
+                        <label for="nombre" class="form-label">Nombre</label>
+                        <input type="text" class="form-control" id="nombre" name="nombre" placeholder="Ingresa tu nombre" required>
+                      </div>
+                    
+                      <div class="mb-3">
+                        <label for="email" class="form-label">Correo Electrónico</label>
+                        <input type="email" class="form-control" id="email" name="email" placeholder="Ingresa tu correo electrónico" required>
+                      </div>
+                    
+                      <div class="mb-3">
+                        <label for="servicio" class="form-label">Servicio</label>
+                        <select class="form-control" id="servicio" name="servicio" required>
+                          <option value="Servicios">Selecciona Servicio</option>
+                          <option value="cambio_aceite">Cambio de Aceite</option>
+                          <option value="reparacion_motor">Reparación de Motor</option>
+                                                
+                        </select>
+                      </div>
+                    
+                      <div class="mb-3">
+                        <label for="mensaje" class="form-label">Mensaje</label>
+                        <textarea class="form-control" id="mensaje" name="mensaje" rows="4" placeholder="Escribe tu mensaje" required></textarea>
+                      </div>
+                    
+                      <button type="submit" class="btn btn-primary">Enviar</button>
+                    </form>
+                    
+                </div>
+            </div>
+  
+            <!-- ocup 6 columnas en dispostivos medianos y grandes -->
+            <div class="col-md-6">
+                <div class="card p-4">
+                    <h2 class="text-center mb-1">Nuestra Ubicación</h2>
+                    <p class="mt-3 mb-0 location-info"><strong>Dirección:</strong> A. Castillo Urizar 122, Ñuñoa</p>
+                    <p class="location-info"><strong>Teléfono:</strong> +569 7399 7222</p>
+                    <iframe width="100%" height="400" frameborder="0" style="border:0"
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3327.459729109982!2d-70.61207542636139!3d-33.48941427337411!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662d01b330f51bb%3A0xeb1ea66bea696351!2sCastillo%20Urizar%20Sur%2C%20Macul%2C%20Regi%C3%B3n%20Metropolitana!5e0!3m2!1ses-419!2scl!4v1704542291687!5m2!1ses-419!2scl" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                      
+                    </div>
+            </div>
+        </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3 footer-section">
+          <h5>Más de 15 Años de Experiencia</h5>
+          <p>Somos un taller de confianza con más de 15 años de experiencia en el cuidado y mantenimiento de vehículos. Nuestro compromiso es ofrecer servicios de calidad que garanticen el óptimo rendimiento y durabilidad de tu automóvil.</p>
+        </div>
+        <div class="col-md-3 footer-section">
+          <h5>Servicios</h5>
+          <ul class="list-unstyled">
+            <li>Mecánica general</li>
+            <li>Mantención automotríz</li>
+            <li>Revisión de aceite y frenos</li>
+            <li>Cambio de neumáticos</li>
+            <li>Cambio de batería</li>
+            <li>Servicios de desabolladura y pintura</li>
+          </ul>
+        </div>
+        <div class="col-md-3 footer-section">
+          <h5>Visítanos</h5>
+          <p>Av. Castillo Urizar 122<br>Ñuñoa, Santiago, Región Metropolitana</p>
+          <p>Teléfono: +569 7399 7222</p>
+        </div>
+        <div class="col-md-3 footer-section">
+          <h5>Síguenos en Redes Sociales</h5>
+          <ul class="list-unstyled">
+            <li><a href="https://www.facebook.com/SolucionesAutomotrices.cl/" target="_blank"><i class="fab fa-facebook-square" style="color: #ffffff;"></i></a></li>
+            <li><a href="https://www.instagram.com/original.macs/" target="_blank"><i class="fab fa-instagram" style="color: #ffffff;"></i></a></li>
+        </div>
+      </div>
+    </div>
+  </footer>
+  
+  <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"></script>
+
+  </body>
+  </html>
+  
+  
